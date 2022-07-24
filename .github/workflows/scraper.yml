@@ -1,4 +1,4 @@
-name: What's Added Today?
+name: Scrape CVRF
 
 on:
   workflow_dispatch:
