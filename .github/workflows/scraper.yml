@@ -1,0 +1,33 @@
+name: What's Added Today?
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 6 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Scrape CVRF RSS Feed for latest a get CVRF XML
+      run: |-
+        RSS_URL=https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/1932662.xml
+        cvrfurl=$(wget ${RSS_URL} -O - 2>/dev/null | xmlstarlet sel -T -t -v '/rss/channel/item[1]/link' | xargs)
+        guid=$(wget ${RSS_URL} -O - 2>/dev/null | xmlstarlet sel -T -t -v '/rss/channel/item[1]/guid' | xargs)
+        curl --silent --output cvrfs/$guid.xml $cvrfurl
+        cp cvrfs/$guid.xml latest.xml
+
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Update CVRF: ${timestamp}" || exit 0
+        git push
