@@ -21,7 +21,7 @@ jobs:
         cvrfurl=$(wget ${RSS_URL} -O - 2>/dev/null | xmlstarlet sel -T -t -v '/rss/channel/item[1]/link' | xargs)
         guid=$(wget ${RSS_URL} -O - 2>/dev/null | xmlstarlet sel -T -t -v '/rss/channel/item[1]/guid' | xargs)
         curl --silent --output files/$guid.xml $cvrfurl
-        cp files/$guid.xml latest.xml
+        cp files/$guid.xml files/latest.xml
 
     - name: Commit and push if it changed
       run: |-
