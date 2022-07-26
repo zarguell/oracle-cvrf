@@ -10,16 +10,16 @@
          <ID>CPUJul2022</ID>
       </Identification>
       <Status>Final</Status>
-      <Version>1</Version>
+      <Version>2</Version>
       <RevisionHistory>
          <Revision>
-            <Number>1</Number>
-            <Date>2022-07-19T13:00:00-07:00</Date>
-            <Description>Initial Release</Description>
+            <Number>2</Number>
+            <Date>2022-07-25T16:05:00-07:00</Date>
+            <Description>Rev 2. Added credit for CVE-2022-21551 &amp; Updated the versions for WCS</Description>
          </Revision>
       </RevisionHistory>
       <InitialReleaseDate>2022-07-19T13:00:00-07:00</InitialReleaseDate>
-      <CurrentReleaseDate>2022-07-19T13:00:00-07:00</CurrentReleaseDate>
+      <CurrentReleaseDate>2022-07-25T16:05:00-07:00</CurrentReleaseDate>
    </DocumentTracking>
    <DocumentNotes>
       <Note Audience="All" Ordinal="1" Title="Summary" Type="Summary" xml:lang="en">This document contains descriptions of Oracle product security vulnerabilities which have had security patches released for all supported versions and platforms for the associated product.  Additional information regarding these vulnerabilities including security patch distribution information can be found at the Oracle sites referenced in this document.</Note>
@@ -122,6 +122,10 @@
       </Acknowledgment>
       <Acknowledgment>
          <Name>thiscodecc of MoyunSec V-Lab</Name>
+         <Organization></Organization>
+      </Acknowledgment>
+      <Acknowledgment>
+         <Name>Lidor Ben Shitrit from Orca Security</Name>
          <Organization></Organization>
       </Acknowledgment>
       <Acknowledgment>
@@ -1013,8 +1017,8 @@
                </Branch>
             </Branch>
             <Branch Name="Oracle WebCenter Sites Support Tools" Type="Product Name">
-               <Branch Name="Prior to 4.4.2" Type="Product Version">
-                  <FullProductName ProductID="P-9617V-Prior to 4.4.2">Oracle WebCenter Sites Support Tools Version Prior to 4.4.2</FullProductName>
+               <Branch Name="4.4.2 and prior" Type="Product Version">
+                  <FullProductName ProductID="P-9617V-4.4.2 and prior">Oracle WebCenter Sites Support Tools Version 4.4.2 and prior</FullProductName>
                </Branch>
             </Branch>
             <Branch Name="Oracle Managed File Transfer" Type="Product Name">
@@ -2680,7 +2684,7 @@
    <Vulnerability Ordinal="38" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2020-36518</Title>
       <Notes>
-         <Note Audience="All" Ordinal="38" Title="Details" Type="Details">Vulnerability in the Big Data Spatial and Graph product of Oracle Big Data Graph (component: Big Data Graph (jackson-databind)).   The supported version that is affected is Prior to 23.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Big Data Spatial and Graph.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Big Data Spatial and Graph. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="38" Title="Details" Type="Details">Vulnerability in the Big Data Spatial and Graph product of Oracle Big Data Graph (component: Big Data Graph (jackson-databind)).  Supported versions that are affected are Prior to 23.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Big Data Spatial and Graph.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Big Data Spatial and Graph. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -3203,7 +3207,7 @@
    <Vulnerability Ordinal="54" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2020-36518</Title>
       <Notes>
-         <Note Audience="All" Ordinal="54" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management NextGen OUI Framework product of Oracle Fusion Middleware (component: NextGen Installer issues (jackson-databind)).   The supported version that is affected is Prior to 13.9.4.2.10. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Global Lifecycle Management NextGen OUI Framework.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management NextGen OUI Framework. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="54" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management NextGen OUI Framework product of Oracle Fusion Middleware (component: NextGen Installer issues (jackson-databind)).  Supported versions that are affected are Prior to 13.9.4.2.10. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Global Lifecycle Management NextGen OUI Framework.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management NextGen OUI Framework. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -3264,7 +3268,7 @@
    <Vulnerability Ordinal="56" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2020-36518</Title>
       <Notes>
-         <Note Audience="All" Ordinal="56" Title="Details" Type="Details">Vulnerability in Oracle Graph Server and Client (component: Oracle Graph Server (jackson-databind)).   The supported version that is affected is Prior to 22.2.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Graph Server and Client.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Graph Server and Client. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="56" Title="Details" Type="Details">Vulnerability in Oracle Graph Server and Client (component: Oracle Graph Server (jackson-databind)).  Supported versions that are affected are Prior to 22.2.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Graph Server and Client.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Graph Server and Client. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -3542,7 +3546,7 @@
    <Vulnerability Ordinal="64" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2020-36518</Title>
       <Notes>
-         <Note Audience="All" Ordinal="64" Title="Details" Type="Details">Vulnerability in Oracle Spatial Studio (component: Oracle Spatial Studio (jackson-databind)).   The supported version that is affected is Prior to 22.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Spatial Studio.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Spatial Studio. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="64" Title="Details" Type="Details">Vulnerability in Oracle Spatial Studio (component: Oracle Spatial Studio (jackson-databind)).  Supported versions that are affected are Prior to 22.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Spatial Studio.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Spatial Studio. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -4222,7 +4226,7 @@
    <Vulnerability Ordinal="85" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-2351</Title>
       <Notes>
-         <Note Audience="All" Ordinal="85" Title="Details" Type="Details">Vulnerability in Oracle TimesTen In-Memory Database (component: Oracle TimesTen In-Memory Database Cache).   The supported version that is affected is Prior to 22.1.1.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via Oracle Net to compromise Oracle TimesTen In-Memory Database.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle TimesTen In-Memory Database, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle TimesTen In-Memory Database. CVSS 3.1 Base Score 8.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H).</Note>
+         <Note Audience="All" Ordinal="85" Title="Details" Type="Details">Vulnerability in Oracle TimesTen In-Memory Database (component: Oracle TimesTen In-Memory Database Cache).  Supported versions that are affected are Prior to 22.1.1.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via Oracle Net to compromise Oracle TimesTen In-Memory Database.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle TimesTen In-Memory Database, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle TimesTen In-Memory Database. CVSS 3.1 Base Score 8.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -4617,7 +4621,7 @@
    <Vulnerability Ordinal="97" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-30129</Title>
       <Notes>
-         <Note Audience="All" Ordinal="97" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management NextGen OUI Framework product of Oracle Fusion Middleware (component: NextGen Installer issues (Apache MINA SSHD)).   The supported version that is affected is Prior to 13.9.4.2.10. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Global Lifecycle Management NextGen OUI Framework.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management NextGen OUI Framework. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="97" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management NextGen OUI Framework product of Oracle Fusion Middleware (component: NextGen Installer issues (Apache MINA SSHD)).  Supported versions that are affected are Prior to 13.9.4.2.10. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Global Lifecycle Management NextGen OUI Framework.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management NextGen OUI Framework. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5026,7 +5030,7 @@
    <Vulnerability Ordinal="110" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-34429</Title>
       <Notes>
-         <Note Audience="All" Ordinal="110" Title="Details" Type="Details">Vulnerability in Oracle REST Data Services (component: Oracle REST Data Services (Eclipse Jetty)).   The supported version that is affected is Prior to 22.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle REST Data Services.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle REST Data Services accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).</Note>
+         <Note Audience="All" Ordinal="110" Title="Details" Type="Details">Vulnerability in Oracle REST Data Services (component: Oracle REST Data Services (Eclipse Jetty)).  Supported versions that are affected are Prior to 22.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle REST Data Services.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle REST Data Services accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5057,7 +5061,7 @@
    <Vulnerability Ordinal="111" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-34429</Title>
       <Notes>
-         <Note Audience="All" Ordinal="111" Title="Details" Type="Details">Vulnerability in the Oracle Stream Analytics product of Oracle GoldenGate (component: Oracle Stream Analytics (Eclipse Jetty)).   The supported version that is affected is 19c: prior to 19.1.0.0.6.4. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Stream Analytics.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Stream Analytics accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).</Note>
+         <Note Audience="All" Ordinal="111" Title="Details" Type="Details">Vulnerability in the Oracle Stream Analytics product of Oracle GoldenGate (component: Oracle Stream Analytics (Eclipse Jetty)).  Supported versions that are affected are 19c: prior to 19.1.0.0.6.4. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Stream Analytics.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Stream Analytics accessible data. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5344,7 +5348,7 @@
    <Vulnerability Ordinal="120" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-3749</Title>
       <Notes>
-         <Note Audience="All" Ordinal="120" Title="Details" Type="Details">Vulnerability in Oracle GoldenGate (component: Oracle GoldenGate (axios)).   The supported version that is affected is 21c: prior to 21.7.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle GoldenGate.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle GoldenGate. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="120" Title="Details" Type="Details">Vulnerability in Oracle GoldenGate (component: Oracle GoldenGate (axios)).  Supported versions that are affected are 21c: prior to 21.7.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle GoldenGate.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle GoldenGate. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5441,7 +5445,7 @@
    <Vulnerability Ordinal="123" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-37714</Title>
       <Notes>
-         <Note Audience="All" Ordinal="123" Title="Details" Type="Details">Vulnerability in the Oracle Stream Analytics product of Oracle GoldenGate (component: Oracle Stream Analytics (jsoup)).   The supported version that is affected is 19c: prior to 19.1.0.0.6.4. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Stream Analytics.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Stream Analytics. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="123" Title="Details" Type="Details">Vulnerability in the Oracle Stream Analytics product of Oracle GoldenGate (component: Oracle Stream Analytics (jsoup)).  Supported versions that are affected are 19c: prior to 19.1.0.0.6.4. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Stream Analytics.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Stream Analytics. CVSS 3.1 Base Score 4.9 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5825,7 +5829,7 @@
    <Vulnerability Ordinal="135" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-41184</Title>
       <Notes>
-         <Note Audience="All" Ordinal="135" Title="Details" Type="Details">Vulnerability in the Oracle Application Express (jQueryUI) component of Oracle Database Server.   The supported version that is affected is Prior to 22.1.1. Easily exploitable vulnerability allows low privileged attacker having User Account privilege with network access via HTTP to compromise Oracle Application Express (jQueryUI).  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Application Express (jQueryUI), attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Application Express (jQueryUI) accessible data as well as  unauthorized read access to a subset of Oracle Application Express (jQueryUI) accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N).</Note>
+         <Note Audience="All" Ordinal="135" Title="Details" Type="Details">Vulnerability in the Oracle Application Express (jQueryUI) component of Oracle Database Server.  Supported versions that are affected are Prior to 22.1.1. Easily exploitable vulnerability allows low privileged attacker having User Account privilege with network access via HTTP to compromise Oracle Application Express (jQueryUI).  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle Application Express (jQueryUI), attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Application Express (jQueryUI) accessible data as well as  unauthorized read access to a subset of Oracle Application Express (jQueryUI) accessible data. CVSS 3.1 Base Score 5.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5889,7 +5893,7 @@
    <Vulnerability Ordinal="137" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-41184</Title>
       <Notes>
-         <Note Audience="All" Ordinal="137" Title="Details" Type="Details">Vulnerability in the Big Data Spatial and Graph product of Oracle Big Data Graph (component: Big Data Graph (jQueryUI)).   The supported version that is affected is Prior to 23.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Big Data Spatial and Graph.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Big Data Spatial and Graph, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Big Data Spatial and Graph accessible data as well as  unauthorized read access to a subset of Big Data Spatial and Graph accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).</Note>
+         <Note Audience="All" Ordinal="137" Title="Details" Type="Details">Vulnerability in the Big Data Spatial and Graph product of Oracle Big Data Graph (component: Big Data Graph (jQueryUI)).  Supported versions that are affected are Prior to 23.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Big Data Spatial and Graph.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Big Data Spatial and Graph, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Big Data Spatial and Graph accessible data as well as  unauthorized read access to a subset of Big Data Spatial and Graph accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -6044,7 +6048,7 @@
    <Vulnerability Ordinal="142" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-41184</Title>
       <Notes>
-         <Note Audience="All" Ordinal="142" Title="Details" Type="Details">Vulnerability in Oracle REST Data Services (component: Oracle REST Data Services (jQueryUI)).   The supported version that is affected is Prior to 22.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle REST Data Services.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle REST Data Services, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle REST Data Services accessible data as well as  unauthorized read access to a subset of Oracle REST Data Services accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).</Note>
+         <Note Audience="All" Ordinal="142" Title="Details" Type="Details">Vulnerability in Oracle REST Data Services (component: Oracle REST Data Services (jQueryUI)).  Supported versions that are affected are Prior to 22.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle REST Data Services.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle REST Data Services, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle REST Data Services accessible data as well as  unauthorized read access to a subset of Oracle REST Data Services accessible data. CVSS 3.1 Base Score 6.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -6199,7 +6203,7 @@
    <Vulnerability Ordinal="147" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-42340</Title>
       <Notes>
-         <Note Audience="All" Ordinal="147" Title="Details" Type="Details">Vulnerability in the Big Data Spatial and Graph product of Oracle Big Data Graph (component: Big Data Graph (Apache Tomcat)).   The supported version that is affected is Prior to 23.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Big Data Spatial and Graph.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Big Data Spatial and Graph. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="147" Title="Details" Type="Details">Vulnerability in the Big Data Spatial and Graph product of Oracle Big Data Graph (component: Big Data Graph (Apache Tomcat)).  Supported versions that are affected are Prior to 23.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Big Data Spatial and Graph.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Big Data Spatial and Graph. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -8917,7 +8921,7 @@
    <Vulnerability Ordinal="231" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-21551</Title>
       <Notes>
-         <Note Audience="All" Ordinal="231" Title="Details" Type="Details">Vulnerability in Oracle GoldenGate (component: Oracle GoldenGate).   The supported version that is affected is 21c: prior to 21.7.0.0.0; 19c: prior to 19.1.0.0.220719. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle GoldenGate.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle GoldenGate. CVSS 3.1 Base Score 6.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H).</Note>
+         <Note Audience="All" Ordinal="231" Title="Details" Type="Details">Vulnerability in Oracle GoldenGate (component: Oracle GoldenGate).  Supported versions that are affected are 21c: prior to 21.7.0.0.0; 19c: prior to 19.1.0.0.220719. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle GoldenGate.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle GoldenGate. CVSS 3.1 Base Score 6.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -9012,7 +9016,7 @@
    <Vulnerability Ordinal="234" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-21554</Title>
       <Notes>
-         <Note Audience="All" Ordinal="234" Title="Details" Type="Details">Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).   The supported version that is affected is Prior to 6.1.36. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle VM VirtualBox. CVSS 3.1 Base Score 4.4 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="234" Title="Details" Type="Details">Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 6.1.36. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle VM VirtualBox. CVSS 3.1 Base Score 4.4 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -9567,7 +9571,7 @@
    <Vulnerability Ordinal="251" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-21571</Title>
       <Notes>
-         <Note Audience="All" Ordinal="251" Title="Details" Type="Details">Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).   The supported version that is affected is Prior to 6.1.36. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.2 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H).</Note>
+         <Note Audience="All" Ordinal="251" Title="Details" Type="Details">Vulnerability in the Oracle VM VirtualBox product of Oracle Virtualization (component: Core).  Supported versions that are affected are Prior to 6.1.36. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle VM VirtualBox executes to compromise Oracle VM VirtualBox.  While the vulnerability is in Oracle VM VirtualBox, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle VM VirtualBox. CVSS 3.1 Base Score 8.2 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -9691,7 +9695,7 @@
    <Vulnerability Ordinal="255" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-21575</Title>
       <Notes>
-         <Note Audience="All" Ordinal="255" Title="Details" Type="Details">Vulnerability in the Oracle WebCenter Sites Support Tools product of Oracle Fusion Middleware (component: User Interface).   The supported version that is affected is Prior to 4.4.2. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebCenter Sites Support Tools.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Sites Support Tools accessible data as well as  unauthorized update, insert or delete access to some of Oracle WebCenter Sites Support Tools accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle WebCenter Sites Support Tools. CVSS 3.1 Base Score 6.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:L).</Note>
+         <Note Audience="All" Ordinal="255" Title="Details" Type="Details">Vulnerability in the Oracle WebCenter Sites Support Tools product of Oracle Fusion Middleware (component: User Interface).  Supported versions that are affected are 4.4.2 and prior. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebCenter Sites Support Tools.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Sites Support Tools accessible data as well as  unauthorized update, insert or delete access to some of Oracle WebCenter Sites Support Tools accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle WebCenter Sites Support Tools. CVSS 3.1 Base Score 6.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:L/A:L).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -9701,7 +9705,7 @@
       <CVE>CVE-2022-21575</CVE>
       <ProductStatuses>
          <Status Type="Known Affected">
-            <ProductID>P-9617V-Prior to 4.4.2</ProductID>
+            <ProductID>P-9617V-4.4.2 and prior</ProductID>
          </Status>
       </ProductStatuses>
       <CVSSScoreSets>
@@ -9715,7 +9719,7 @@
             <Description>Oracle WebCenter Sites Support Tools</Description>
             <Entitlement xml:lang="en">Oracle customers with valid support contracts</Entitlement>
             <URL>https://support.oracle.com/rs?type=doc&amp;amp;id=2880163.2</URL>
-            <ProductID>P-9617V-Prior to 4.4.2</ProductID>
+            <ProductID>P-9617V-4.4.2 and prior</ProductID>
          </Remediation>
       </Remediations>
    </Vulnerability>
@@ -12380,7 +12384,7 @@
    <Vulnerability Ordinal="340" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-23437</Title>
       <Notes>
-         <Note Audience="All" Ordinal="340" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management NextGen OUI Framework product of Oracle Fusion Middleware (component: NextGen Installer issues (Apache Xerces-J)).   The supported version that is affected is Prior to 13.9.4.2.10. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Global Lifecycle Management NextGen OUI Framework.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management NextGen OUI Framework. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="340" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management NextGen OUI Framework product of Oracle Fusion Middleware (component: NextGen Installer issues (Apache Xerces-J)).  Supported versions that are affected are Prior to 13.9.4.2.10. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Global Lifecycle Management NextGen OUI Framework.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management NextGen OUI Framework. CVSS 3.1 Base Score 6.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -12411,7 +12415,7 @@
    <Vulnerability Ordinal="341" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-23437</Title>
       <Notes>
-         <Note Audience="All" Ordinal="341" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management OPatch product of Oracle Global Lifecycle Management (component: Patch Installer (Apache Xerces-J)).   The supported version that is affected is Prior to 12.2.0.1.30. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle Global Lifecycle Management OPatch executes to compromise Oracle Global Lifecycle Management OPatch.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management OPatch. CVSS 3.1 Base Score 4.2 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="341" Title="Details" Type="Details">Vulnerability in the Oracle Global Lifecycle Management OPatch product of Oracle Global Lifecycle Management (component: Patch Installer (Apache Xerces-J)).  Supported versions that are affected are Prior to 12.2.0.1.30. Easily exploitable vulnerability allows high privileged attacker with logon to the infrastructure where Oracle Global Lifecycle Management OPatch executes to compromise Oracle Global Lifecycle Management OPatch.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Global Lifecycle Management OPatch. CVSS 3.1 Base Score 4.2 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -12835,7 +12839,7 @@
    <Vulnerability Ordinal="354" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2022-24729</Title>
       <Notes>
-         <Note Audience="All" Ordinal="354" Title="Details" Type="Details">Vulnerability in the Oracle Application Express (CKEditor) component of Oracle Database Server.   The supported version that is affected is Prior to 22.1.1. Easily exploitable vulnerability allows low privileged attacker having User Account privilege with network access via HTTP to compromise Oracle Application Express (CKEditor).  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Application Express (CKEditor). CVSS 3.1 Base Score 5.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H).</Note>
+         <Note Audience="All" Ordinal="354" Title="Details" Type="Details">Vulnerability in the Oracle Application Express (CKEditor) component of Oracle Database Server.  Supported versions that are affected are Prior to 22.1.1. Easily exploitable vulnerability allows low privileged attacker having User Account privilege with network access via HTTP to compromise Oracle Application Express (CKEditor).  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Application Express (CKEditor). CVSS 3.1 Base Score 5.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
