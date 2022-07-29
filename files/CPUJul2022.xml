@@ -10,16 +10,16 @@
          <ID>CPUJul2022</ID>
       </Identification>
       <Status>Final</Status>
-      <Version>2</Version>
+      <Version>3</Version>
       <RevisionHistory>
          <Revision>
-            <Number>2</Number>
-            <Date>2022-07-25T16:05:00-07:00</Date>
-            <Description>Rev 2. Added credit for CVE-2022-21551 &amp; Updated the versions for WCS</Description>
+            <Number>3</Number>
+            <Date>2022-07-28T12:05:00-07:00</Date>
+            <Description>Rev 3. Updated the affected versions WebLogic CVE-2021-40690</Description>
          </Revision>
       </RevisionHistory>
       <InitialReleaseDate>2022-07-19T13:00:00-07:00</InitialReleaseDate>
-      <CurrentReleaseDate>2022-07-25T16:05:00-07:00</CurrentReleaseDate>
+      <CurrentReleaseDate>2022-07-28T12:05:00-07:00</CurrentReleaseDate>
    </DocumentTracking>
    <DocumentNotes>
       <Note Audience="All" Ordinal="1" Title="Summary" Type="Summary" xml:lang="en">This document contains descriptions of Oracle product security vulnerabilities which have had security patches released for all supported versions and platforms for the associated product.  Additional information regarding these vulnerabilities including security patch distribution information can be found at the Oracle sites referenced in this document.</Note>
@@ -5730,7 +5730,7 @@
    <Vulnerability Ordinal="132" xmlns="http://www.icasi.org/CVRF/schema/vuln/1.1">
       <Title>CVE-2021-40690</Title>
       <Notes>
-         <Note Audience="All" Ordinal="132" Title="Details" Type="Details">Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars (Apache Santuario XML Security For Java)).  Supported versions that are affected are 12.2.1.3.0, 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).</Note>
+         <Note Audience="All" Ordinal="132" Title="Details" Type="Details">Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars (Apache Santuario XML Security For Java)).  Supported versions that are affected are 12.2.1.4.0 and  14.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).</Note>
       </Notes>
       <Involvements>
          <Involvement Party="Vendor" Status="Completed">
@@ -5740,7 +5740,6 @@
       <CVE>CVE-2021-40690</CVE>
       <ProductStatuses>
          <Status Type="Known Affected">
-            <ProductID>P-5242V-12.2.1.3.0</ProductID>
             <ProductID>P-5242V-12.2.1.4.0</ProductID>
             <ProductID>P-5242V-14.1.1.0.0</ProductID>
          </Status>
@@ -5756,7 +5755,6 @@
             <Description>Oracle WebLogic Server</Description>
             <Entitlement xml:lang="en">Oracle customers with valid support contracts</Entitlement>
             <URL>https://support.oracle.com/rs?type=doc&amp;amp;id=2880163.2</URL>
-            <ProductID>P-5242V-12.2.1.3.0</ProductID>
             <ProductID>P-5242V-12.2.1.4.0</ProductID>
             <ProductID>P-5242V-14.1.1.0.0</ProductID>
          </Remediation>
