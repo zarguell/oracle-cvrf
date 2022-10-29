@@ -10,16 +10,16 @@
          <ID>CPUOct2022</ID>
       </Identification>
       <Status>Final</Status>
-      <Version>1</Version>
+      <Version>2</Version>
       <RevisionHistory>
          <Revision>
-            <Number>1</Number>
-            <Date>2022-10-18T13:00:00-07:00</Date>
-            <Description>Initial Release</Description>
+            <Number>2</Number>
+            <Date>2022-10-27T17:10:00-07:00</Date>
+            <Description>Rev 2. Added Credit for CVE-2022-21607</Description>
          </Revision>
       </RevisionHistory>
       <InitialReleaseDate>2022-10-18T13:00:00-07:00</InitialReleaseDate>
-      <CurrentReleaseDate>2022-10-18T13:00:00-07:00</CurrentReleaseDate>
+      <CurrentReleaseDate>2022-10-27T17:10:00-07:00</CurrentReleaseDate>
    </DocumentTracking>
    <DocumentNotes>
       <Note Audience="All" Ordinal="1" Title="Summary" Type="Summary" xml:lang="en">This document contains descriptions of Oracle product security vulnerabilities which have had security patches released for all supported versions and platforms for the associated product.  Additional information regarding these vulnerabilities including security patch distribution information can be found at the Oracle sites referenced in this document.</Note>
@@ -191,6 +191,10 @@
       <Acknowledgment>
          <Name>Yongheng Chen</Name>
          <Organization>Yongheng Chen</Organization>
+      </Acknowledgment>
+      <Acknowledgment>
+         <Name>Zu-Ming Jiang</Name>
+         <Organization>Zu-Ming Jiang</Organization>
       </Acknowledgment>
       <Acknowledgment>
          <Name>l1k3beef</Name>
